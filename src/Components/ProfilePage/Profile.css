@@ -1,0 +1,141 @@
+.body {
+    background-color: rgb(107, 97, 95);
+    width: 800px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.body input {
+    font-size: 20px;
+    margin: 5px;
+    padding: 3px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.body img {
+    height: 110px;
+    margin-right: 30px;
+}
+
+.body button {
+    font-size: 20px;
+    padding: 3px 10px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.post {
+    background-color: bisque;
+    width: 60%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.post h4 {
+    margin: 13px 10px;
+    background-color: silver;
+    padding: 3px 10px;
+}
+
+.profileDiv {
+    background-color: silver;
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.profileDiv .infoDiv {
+    width: 300px;
+}
+
+.profileDiv .infoDiv h4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileDiv .imgDiv {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.profileDiv .imgDiv img {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.statusDiv {
+    background-color: silver;
+    display: inline-block;
+    width: 270px;
+}
+
+.statusDiv input {
+    margin: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background: seashell;
+    padding: 0;
+}
+
+.statusDiv span {
+    display: block;
+    margin: 10px;
+    padding: 0;
+    min-height: 27px;
+    font-size: 20px;
+}
+
+.textarea {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.MyProfilelInfo {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.MyProfilelInfo div {
+    text-align: center;
+}
+
+.MyProfilelInfo input {
+    font-size: 20px;
+}
+
+.deleteButton {
+    padding: 0;
+    background-color: red;
+    line-height: 1;
+    height: 40px;
+    display: block;
+    padding-top: 6px;
+    transform: scale(0.8);
+    font-size: 22px !important;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    left: 25px;
+    bottom: 45px;
+}
+
+.deleteDiv {
+    margin-left: auto;
+}

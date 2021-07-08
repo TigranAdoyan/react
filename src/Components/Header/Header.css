@@ -1,0 +1,101 @@
+.header {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    align-items: center;
+    padding-left: 20px;
+    text-align: left;
+    background-image: url("../../Files/Images/social-media-marketing-campaign-case-study.jpeg");
+    background-size: 100% auto;
+    background-position: 10px -60px;
+}
+
+.header h1 {
+    background-color: seashell;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.loginDiv {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 35px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: silver;
+}
+
+.loginDiv h4 {
+    margin: 5px;
+}
+
+.loginDiv button {
+    font-size: 15px;
+    padding: 3px;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.Navlink {
+    text-decoration: none;
+    color: black;
+}
+
+.Navlink:hover {
+    text-decoration: underline;
+}
+
+.popup {
+    position: absolute;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    padding: 20px;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    top: 200px;
+}
+
+.popup form div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.popup_background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.closeBtn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: auto;
+}

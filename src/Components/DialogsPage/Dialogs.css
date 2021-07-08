@@ -1,0 +1,60 @@
+.messages {
+    background-color: salmon;
+    width: 600px;
+    height: 600px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.item img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.messages div {
+    background-color: silver;
+    margin: 10px;
+}
+
+.messages .messages-user .active {
+    color: red;
+}
+
+.messages .messages-place {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.messages .messages-place .message {
+    border-bottom: 2px solid black;
+    float: left;
+    background-color: red;
+    position: relative;
+    padding: 10px;
+}
+
+.messages .messages-place .SEND_DIV {
+    display: flex;
+    justify-content: space-around;
+}
+
+.messages .messages-place .SEND_DIV input {
+    font-size: 18px;
+    padding: 3px 10px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.mymessage {
+    left: 170px;
+}

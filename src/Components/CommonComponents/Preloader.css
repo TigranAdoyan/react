@@ -1,0 +1,18 @@
+.bodyP {
+    background-color: white;
+    width: 800px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.bodyP .preloaderImg {
+    padding-top: 100px;
+    height: 300px;
+    width: auto;
+    text-align: center;
+}
+
+.bodyP .preloaderImg img {
+    height: 200px;
+    width: auto;
+}

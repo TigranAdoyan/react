@@ -1,0 +1,76 @@
+.body {
+    background-color: gray;
+    width: 800px !important;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.pagination {
+    margin: 5px auto;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.pagination button {
+    margin: 5px auto;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(199, 197, 179, 0.822);
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.pagination span {
+    font-size: 19px;
+    padding: 5px 12px;
+    margin: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pagination span:hover {
+    background-color: rgba(199, 197, 179, 0.822);
+}
+
+.activePage {
+    background-color: rgba(199, 197, 179, 0.822);
+}
+
+.card {
+    display: flex;
+    margin: 10px;
+    width: 600px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.left img {
+    margin: 5px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.left button {
+    margin: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #DEDEDE;
+    margin-left: 20px;
+}
